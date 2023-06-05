@@ -1,0 +1,274 @@
+.bg-image {
+
+  background-size: cover;
+  background-position: 100%;
+  height: calc(100vh - 0px);
+  margin-top: -174px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  color: rgb(20, 20, 20);
+  background-color: #FEFEFC !important;
+
+
+}
+
+header {
+  background-color: #FEFEFC !important;
+
+}
+
+
+
+.navbar-collapse {
+  max-height: 100px;
+  background-color: #FEFEFC !important;
+
+}
+
+.navbar-nav a {
+  font-size: 20px;
+
+}
+
+* {}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.tex {
+  text-align: end;
+
+}
+
+.tt {
+  background-color: #F3F3F3;
+}
+
+.agenda {
+  background-color: #1FBABF;
+}
+
+.recetario {
+  background-color: #F2BAD3;
+}
+
+.registro {
+  background-color: #1FBABF
+}
+
+.alert-danger {
+  border-color: #dc3545;
+}
+
+.alert-success {
+  border-color: #28a745;
+}
+
+.productos {
+  background-color: #1FBABF;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 280px;
+}
+
+.parallax {
+
+  background-image: url("/assets/zyro-image.png");
+  min-height: 612px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+
+@media(max-width:575px) {
+  .parallax {
+    background-size: 100% 100%;
+    background-attachment: local
+  }
+}
+
+.slog {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.contact-list a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #e27aa9;
+
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #e27aa9;
+}
+
+.profile {
+  margin-left: 250px;
+}
+
+@media(max-width:575px) {
+  .logo {
+    visibility: collapse;
+    max-height: 0px;
+
+  }
+}
+
+@media(max-width:990px) {
+  .logo {
+    visibility: collapse;
+    max-height: 0px;
+  }
+}
+
+@media(max-width:575px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    background-color: transparent !important;
+    color: rgb(24, 2, 22);
+
+    width: 0%;
+  }
+}
+
+@media(max-width:575px) {
+  .profile {
+    margin-left: 0px;
+  }
+}
+
+
+
+@media(max-width:990px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    background-color: transparent !important;
+    color: rgb(190, 102, 182);
+
+  }
+}
+
+@media(max-width:990px) {
+  .profile {
+    margin-left: 0px;
+  }
+}
+
+
+.trasformando {
+  font-size: 70px;
+}
+
+@media(max-width:575px) {
+  .trasformando {
+    font-size: 30px;
+  }
+}
+
+/* Estilos para el formulario de contacto */
+.container {
+  padding: 50px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #01070a;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0f212e;
+}
+
+.btn-google-font {
+  font-family: 'Gochi Hand', cursive;
+
+}
+
+.btn-custom {
+  background-color: #1FBABF;
+}
+
+.Btnlove {
+  font-size: 1150px;
+}
+
+#mensaje-enviado {
+  display: none;
+  /* Ocultar el div por defecto */
+  margin-top: 10px;
+  /* Agregar un margen superior */
+  padding: 10px;
+  /* Agregar un relleno */
+  background-color: #dff0d8;
+  /* Color de fondo */
+  border: 1px solid #d6e9c6;
+  /* Borde */
+  border-radius: 4px;
+  /* Bordes redondeados */
+}
+
+@media(max-width:575px) {
+  .navbar-collapse {
+    max-height: 500px;
+    background-color: #FEFEFC !important;
+  }
+}
+
+@media(max-width:990px) {
+  .navbar-collapse {
+    max-height: 500px;
+    background-color: #FEFEFC !important;
+  }
+}
+
+.info {
+  font-size: 20px;
+}
+
+@media(max-width:1800px) {
+  .profile {
+    margin-left: 50px;
+  }
+}
